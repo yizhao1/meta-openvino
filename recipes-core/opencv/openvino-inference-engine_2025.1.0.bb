@@ -27,6 +27,7 @@ SRC_URI = "git://github.com/openvinotoolkit/openvino.git;protocol=https;name=ope
            file://0001-build-Fix-build-issue-using-Fedora-and-gcc-15-29880.patch \
            file://0001-RecordProperty-serializes-ints-and-64-bit-ints-inclu.patch;patchdir=thirdparty/gtest/gtest \
            file://0001-GPU-New-infra-for-OCL-CM-kernels-26985.patch \
+           file://0001-CMAKE-Fixed-version-detection-with-cmake-4.1-32039.patch \
            "
 
 SRCREV_openvino = "6fec06580ab8f60d1518420d17a02e8057a74349"
